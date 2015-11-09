@@ -2,7 +2,7 @@
  * GccApplication1.c
  *
  * Created: 2015-11-05 08:49:12
- *  Author: Administrator
+ *  Author: Michal Ociepka
  */ 
 #define F_CPU 16000000UL
 #include<util/delay.h>
