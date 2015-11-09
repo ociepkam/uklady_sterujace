@@ -14,10 +14,9 @@ int main(void)
 	DDRA = 0xFF;
 	DDRB = 0x00;
 	PORTB = 0x01;
-    
 	
 	while(1)
-    {
+	{
 		if(PINB & 0x01)
 		{
 			PORTA = 0x00;
@@ -54,13 +53,6 @@ int main(void)
 					_delay_us(1000-t);
 				}
 			}
-			
-			
-			
 		}
-		
-		
-		
-        
-    }
+	}
 }
